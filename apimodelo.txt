@@ -1,0 +1,8 @@
+142.168.2.26:3000/sintoken ->get
+->post: clientes => {cliente: {"name":"","pass":""}}
+->get: clientes
+->post: login => cliente
+->post: auto => auto
+->get: auto
+->post: turnos => turno
+->get: turnos
